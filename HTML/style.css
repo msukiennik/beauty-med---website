@@ -1,0 +1,302 @@
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family: Engravers Gothic,Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 26px;
+    margin: 0px;
+    background-image: url('images/roses45.jpg');
+    background-attachment: fixed;
+}
+
+/* HEADER */
+/* FOOTER */
+/* NAVIGATOR */
+
+header {
+    background-color: black;
+}
+
+footer {
+width: 100%;
+height: 200px;
+background-color: black;
+color: pink;
+}
+
+.footer-div p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#navigator {
+    background-color: black;
+}
+
+#social-elements {
+    padding: 5px;
+    color: white;
+    margin-left: 15px;
+    width: 30%;
+    display: inline-block;
+}
+
+.social {
+    padding: 5px;
+}
+
+.social:hover {
+    color:white;
+}
+
+#contact {
+    width: 10%;
+    display: inline-block;
+}
+
+#contact-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* MAIN MENU */
+
+#main-menu {
+    width: 45%;
+    display: inline-block;
+}
+
+#menu-list {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    list-style-type: none;
+    color: white;
+    font-size: 10px;
+    padding-inline-start: 15px;
+}
+
+
+.element-menu-list {
+display: inline-block;
+}
+
+.element-menu-list-text {
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.element-menu-list:hover {
+    color: pink;
+}
+
+.sublist {
+    padding-inline-start: 0px;
+    position: absolute;
+    display: flex;
+}
+
+
+.dropdown-button {
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    width: 500px;
+}
+
+.element-menu-sublist {
+    display: table;
+}
+
+.element-menu-sublist-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.element-menu-sublist-text:hover {
+    color: pink;
+}
+
+
+.open-submenu {
+    display: table;
+
+}
+
+.close-submenu {
+    display: none;
+}
+
+
+
+/* LOGO */
+
+#logo {
+    background-color: black;
+    width: 50%;
+}
+
+
+/* BANNER */
+#baner {
+    background-color: white;
+}
+
+.gallery-baner img {
+    overflow: hidden;
+}
+
+/* DIV BIALY */
+
+#div-bialy {
+    height: 800px;
+    background-color: white;
+}
+
+/* about us */
+.about-us {
+    width: 100%;
+    height: 100px;
+}
+
+.text-why-package {
+    height: 100px;
+    background-color: pink;
+    padding-left: 14%;
+}
+
+.text-answer{
+    display: table-cell;
+    height: 100px;
+    width: 300px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.5em;
+    color: white;
+    padding: 15px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .text-answer-style {
+        font-size: 25px;
+    }
+
+    /* div bialy */
+    
+    #div-bialy {
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 50px;
+    }
+
+    /* roses */
+
+    #rabat{
+        margin-bottom: -8px;
+    }
+
+    #no-roses-2 {
+        display: inline-block;
+        width: 49.9%;
+        background-color: pink;
+        margin-left:-5px;
+        height: 500px;
+    }
+
+    #no-roses-3 {
+        display: inline-block;
+        width: 50%;
+        background-color: black;
+        height: 500px;
+    }
+
+    #roses {
+        display: inline-block;
+        width: 50%;
+        height:500px;
+        background-color: rgb(0, 0, 0, 0.7);
+        color: white;
+        margin-top: -10px;
+    }
+
+    #no-roses {
+        display: inline-block;
+        width: 49.9%;
+        background-color: black;
+        margin-left:-5px;
+        height: 500px;
+        margin-top: -10px;
+    }
+
+    #text-in-roses {
+        color: white;
+        font-weight: bold;
+        padding:0px;
+        margin: 0px;
+        display: table-cell;
+        height: 500px;
+        width: 900px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    /* bubble */
+
+    #bubbles {
+        height: 450px;
+        background-color: white;
+        padding-left: 13%;
+
+    }
+
+    .once-bubble {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin-top:50px;
+    }
+
+    .bubble-package {
+        display: inline-block;
+        height:450px;
+        padding-right: 100px;
+        
+    }
+
+    .text-in-bubble {
+        width: 350px;
+        height: 350px;
+        font-size: 1em;
+        overflow: hidden;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .with-hover {
+        background-color: pink;
+        color: black;
+    }
+
+    .without-hover {
+        background-color: black;
+        color: pink;
+    }
+
+
+   
+
+
+
+
