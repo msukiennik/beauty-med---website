@@ -1,0 +1,538 @@
+html body {
+    width: 100%;
+    font-family: Engravers Gothic,Arial,Helvetica,sans-serif;
+    letter-spacing: .8px;
+    line-height: 26px;
+    margin: 0px;
+    background-image: url('images/roses45.jpg');
+    background-attachment: fixed;
+}
+
+/* RESPONSIVE DESIGN */
+@media (min-width: 1100px) {
+body {
+    width: 1050px;
+    margin: 0px auto;
+}
+
+#no-roses-3 {
+    width: 50%
+}
+
+#no-roses-2 {
+    width: 50%
+}
+
+#no-roses {
+    width: 50%
+}
+
+#roses {
+    width: 50%
+}
+
+.fa-bars {
+    display: none !important;
+}
+
+#main-menu {
+    width: 100%;
+    display: inline-block;
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+
+.element-menu-list {
+    display: inline-block;
+    }
+
+    .visible-menu-list {
+        display: inline;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 1000px) {
+    body {
+        width: 950px;
+        margin: 0px auto;
+    }
+
+    #no-roses-3 {
+        width: 50%
+    }
+    
+    #no-roses-2 {
+        width: 50%
+    }
+
+    #no-roses {
+        width: 50%
+    }
+
+    #roses {
+        width: 50%
+    }
+
+    .fa-bars {
+        display: none !important;
+    }
+
+    #main-menu {
+        width: 100%;
+        display: inline-block;
+    }
+
+    nav {
+        width: 100%;
+        display: inline-block;
+    }
+
+.element-menu-list {
+    display: inline-block;
+}
+
+    .visible-menu-list {
+        display: inline;
+    }
+
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    body {
+        width: 750px;
+        margin: 0px auto;
+    }
+
+    #no-roses-3 {
+        width: 100%
+    }
+    
+    #no-roses-2 {
+        width: 100%
+    }
+
+    #no-roses {
+        width: 100%
+    }
+
+    #roses {
+        width: 100%
+    }
+
+    .fa-bars {
+        display: none !important;
+    }
+
+    #main-menu {
+        width: 100%;
+        display: inline-block;
+    }
+
+    nav {
+        width: 100%;
+        display: inline-block;
+    }
+
+.element-menu-list {
+    display: inline-block;
+    }
+
+    .visible-menu-list {
+        display: inline;
+    }
+
+}
+    
+    
+@media (max-width: 800px) and (min-width: 500px) {
+    body { 
+        width: 450px;
+        margin: 0px auto;
+    }
+
+    #no-roses-3 {
+        width: 100%
+    }
+    
+    #no-roses-2 {
+        width: 100%
+    }
+
+    #no-roses {
+        width: 100%
+    }
+
+    #roses {
+        width: 100%
+    }
+
+    .fa-bars {
+        display: block !important;
+        margin-top: -50px;
+
+    }
+
+    #main-menu {
+        width: 50%;
+        display: block;
+        float: right;
+    }
+
+    nav {
+        width: 50%;
+        float: right;
+        display: block;
+
+    }
+
+.element-menu-list {
+    display: inline;
+    }
+
+    .visible-menu-list {
+        display: none;
+    }
+    
+
+}
+
+@media (max-width: 500px) {
+    body {
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    #no-roses-3 {
+        width: 100%
+    }
+    
+    #no-roses-2 {
+        width: 100%
+    }
+
+    #no-roses {
+        width: 100%
+    }
+
+    #roses {
+        width: 100%
+    }
+
+.fa-bars {
+        display: block !important;
+        margin-top: -50px;
+    }
+
+    nav {
+        width: 50%;
+        float: right;
+        display: block;
+    }
+
+    #main-menu {
+        width: 50%;
+        display: block;
+        float: right;
+    }
+
+.element-menu-list {
+    display: inline;
+    }
+
+    .visible-menu-list {
+        display: none;
+    }
+
+}
+
+/* HEADER */
+/* FOOTER */
+/* NAVIGATOR */
+
+header {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+footer {
+width: 100%;
+height: 200px;
+background-color: black;
+color: pink;
+}
+
+.footer-div p {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#navigator {
+    background-color: black;
+}
+
+#social-elements {
+    padding: 5px;
+    color: white;
+    margin-left: 15px;
+    width: 30%;
+    display: inline-block;
+}
+
+.social {
+    padding: 5px;
+}
+
+.social:hover {
+    color:white;
+}
+
+#contact {
+    width: 10%;
+    display: inline-block;
+}
+
+#contact-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+/* MAIN MENU */
+
+.fa-bars {
+color: white;
+}
+
+#menu-list {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    list-style-type: none;
+    color: white;
+    font-size: 10px;
+    padding-inline-start: 15px;
+}
+
+.mobile-menu {
+    display: inline;
+}
+
+.close-menu-list {
+    display: inline;
+}
+
+.element-menu-list-text {
+padding-right: 10px;
+padding-left: 10px;
+}
+
+.element-menu-list:hover {
+    color: pink;
+}
+
+.sublist {
+    padding-inline-start: 0px;
+    position: absolute;
+    display: flex;
+}
+
+
+.dropdown-button {
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    width: 500px;
+}
+
+.element-menu-sublist {
+    display: table;
+}
+
+.element-menu-sublist-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.element-menu-sublist-text:hover {
+    color: pink;
+}
+
+
+.open-submenu {
+    display: table;
+
+}
+
+.close-submenu {
+    display: none;
+}
+
+
+
+/* LOGO */
+
+#logo {
+    background-color: black;
+    width: 50%;
+}
+
+
+/* BANNER */
+#baner {
+    background-color: white;
+}
+
+.gallery-baner img {
+    width: 100%;
+}
+
+/* DIV BIALY */
+
+#div-bialy {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 50px;
+}
+
+#div-bialy p {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+}
+
+    /* roses */
+
+    #rabat{
+        width: 100%;
+        height: auto;
+        background-color: pink;
+    }
+
+
+    #no-roses-3 {
+        display: block;
+        float: left;
+        background-color: black;
+        height: 500px;
+    }
+
+    #no-roses-2 {
+        display: block;
+        float: left;
+        background-color: pink;
+        height: 500px;
+    }
+
+    #roses {
+        display: block;
+        float: left;
+        height:500px;
+        background-color: purple;
+        color: black;
+    }
+
+    #no-roses {
+        display: block;
+        float: left;
+        background-color: black;
+        height: 500px;
+    }
+
+    #text-in-roses {
+        color: white;
+        font-weight: bold;
+        padding: 30px;
+        display: table-cell;
+        height: 500px;
+        text-align: center;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+
+    /* INVISIBLE CONTACT WITH US */
+
+    /*
+    .invisible {
+        width: 100%;
+        height: 800px;
+        background-color: pink (0,0,0,0.6);
+    }
+
+    .contact-with-us {
+        display: block;
+        width: 500px;
+        height: 100px;
+        background-color: white (0,0,0,1.0);
+        padding: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    */
+
+    .contact-with-us p {
+        color:white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* bubble */
+
+    #bubbles {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .bubble-package {
+        flex: 1;
+        height: auto;
+        padding: 100px;
+    }
+
+    .once-bubble {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-in-bubble {
+        width: 350px;
+        height: 350px;
+        font-size: 1em;
+        overflow: hidden;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .with-hover {
+        background-color: pink;
+        color: black;
+    }
+
+    .without-hover {
+        background-color: black;
+        color: pink;
+    }
+
+

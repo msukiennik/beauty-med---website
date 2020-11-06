@@ -27,8 +27,6 @@ for(var i = 0; i < allElementsMenuList.length; i++) {
 }
 
 
-//////////////////////////////
-
 // hover on bubbles
 
 var bubble = document.getElementsByClassName("once-bubble");
@@ -54,5 +52,17 @@ bubble[i].addEventListener("mouseleave", function() {
 })
 
 }
+
+
+// MOBILE MENU:
+
+var menuMobile = document.getElementById("mobile-menu-logo");
+var menuList = document.getElementById("menu-list");
+var classListMainMenu = menuList.classList;
+
+menuMobile.addEventListener("click", function(){
+    classListMainMenu.toggle("mobile-menu");
+    console.log("classList: " + classListMainMenu);
+})
 
 })
